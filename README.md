@@ -11,11 +11,11 @@ The Weather Dashboard is a minimalist, responsive React web application that pro
 
 This project is designed for ease of use, clean UI aesthetics, and extensibility. It serves as a foundational template for developers looking to build or extend weather-based applications using React.
 
-## 🚀 Live Demo
+## Live Demo
 
 Check out the deployed app here: [Weather Dashboard Live](https://weather-dashboard-kappa-five.vercel.app/)
 
-## 🖼️ Screenshot
+## Screenshot
 
 ![Weather Dashboard Screenshot](screenshot.png)
 
