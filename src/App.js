@@ -36,7 +36,9 @@ function App() {
         backgroundImage: `url(${backgroundImage})`,
       }}
     >
+      
       <div className="overlay">
+        <h1 className="Weather Dashboard using React and API">Weather Dashboard</h1>
         <SearchBar onSearch={fetchWeather} />
         {weather && <WeatherCard data={weather} />}
       </div>
