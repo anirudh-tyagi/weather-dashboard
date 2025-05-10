@@ -1,13 +1,14 @@
-
 body {
   font-family: 'Outfit', sans-serif;
   margin: 0;
   background-color: #f0f2f5;
 }
+
 .app {
   min-height: 100vh;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,13 +26,11 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.18);
   color: white;
   text-align: center;
-  animation: fadein 0.6s ease;
+  animation: fadeIn 0.6s ease;
+  transition: background 0.3s ease;
 }
 
-.weather-card img {
-  width: 100px;
-  margin: 1rem 0;
-}
+/* Optional theme toggling support */
 .light .overlay {
   background: rgba(255, 255, 255, 0.4);
   color: black;
@@ -44,8 +43,18 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
+.weather-card img {
+  width: 100px;
+  margin: 1rem 0;
+}
 
-@keyframes fadein {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
