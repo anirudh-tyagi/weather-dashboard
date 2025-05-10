@@ -38,7 +38,7 @@ Check out the deployed app here: [Weather Dashboard Live](https://weather-dashbo
 1. **Clone the repository:**
 
    ```
-   git clone https://github.com/itsanirudhtyagi/weather-dashboard.git
+   git clone https://github.com/anirudh-tyagi/weather-dashboard.git
    cd weather-dashboard
    ```
 
