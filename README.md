@@ -21,7 +21,7 @@ Check out the deployed app here: [Weather Dashboard Live](https://weather-dashbo
 - CSS (Inline and utility styling)
 - Weather API (WeatherAPI)
 - HTML5 (Semantic structure)
-- Optional: Vercel
+- Vercel
 
 ## Features and Functionality
 
