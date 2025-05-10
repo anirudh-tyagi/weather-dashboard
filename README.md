@@ -1,5 +1,10 @@
 # Weather Dashboard
 
+## Project By : 
+- Ayush Jasani
+- Abhay Singh
+- Anirudh Tyagi
+  
 ## Project Description
 
 The Weather Dashboard is a minimalist, responsive React web application that provides real-time weather data for cities around the world. Users can search for a city using an intuitive search bar with autocomplete suggestions. Upon selection, the dashboard displays relevant weather metrics such as temperature, humidity, and forecast using data fetched from a weather API.
