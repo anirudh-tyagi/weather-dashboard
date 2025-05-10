@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Weather Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+The Weather Dashboard is a minimalist, responsive React web application that provides real-time weather data for cities around the world. Users can search for a city using an intuitive search bar with autocomplete suggestions. Upon selection, the dashboard displays relevant weather metrics such as temperature, humidity, and forecast using data fetched from a weather API.
 
-In the project directory, you can run:
+This project is designed for ease of use, clean UI aesthetics, and extensibility. It serves as a foundational template for developers looking to build or extend weather-based applications using React.
 
-### `npm start`
+## 🚀 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out the deployed app here: [Weather Dashboard Live](https://weather-dashboard-kappa-five.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖼️ Screenshot
 
-### `npm test`
+![Weather Dashboard Screenshot](screenshot.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- React.js (Frontend framework)
+- JavaScript (Logic and interactivity)
+- CSS (Inline and utility styling)
+- Weather API (such as OpenWeatherMap or WeatherAPI)
+- HTML5 (Semantic structure)
+- Optional: Vercel or Netlify for deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features and Functionality
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Real-time weather data retrieval
+- City search input with static autocomplete suggestions
+- Clean, modern UI with responsive design
+- Error handling for invalid inputs or unavailable data
+- Modular component structure for maintainability
+- Styled input elements with interactive suggestion dropdown
+- Easily extendable for multi-day forecast or geolocation-based search
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup Instructions
 
-### `npm run eject`
+1. **Clone the repository:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```
+   git clone https://github.com/itsanirudhtyagi/weather-dashboard.git
+   cd weather-dashboard
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install dependencies:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Ensure you have Node.js and npm installed. Then run:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```
+   npm install
+   ```
 
-## Learn More
+3. **Configure environment variables:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   Create a `.env` file in the root directory and add your weather API key:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```
+   REACT_APP_WEATHER_API_KEY=your_api_key_here
+   ```
 
-### Code Splitting
+4. **Run the development server:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```
+   npm start
+   ```
 
-### Analyzing the Bundle Size
+   This will launch the app at `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. **Build for production:**
 
-### Making a Progressive Web App
+   To create a production-ready build:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```
+   npm run build
+   ```
 
-### Advanced Configuration
+6. **Deploy (optional):**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   You can deploy the build folder using services like Vercel, Netlify, or GitHub Pages.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For issues or feature requests, please open an issue on the project repository.
