@@ -19,9 +19,9 @@ Check out the deployed app here: [Weather Dashboard Live](https://weather-dashbo
 - React.js (Frontend framework)
 - JavaScript (Logic and interactivity)
 - CSS (Inline and utility styling)
-- Weather API (such as OpenWeatherMap or WeatherAPI)
+- Weather API (WeatherAPI)
 - HTML5 (Semantic structure)
-- Optional: Vercel or Netlify for deployment
+- Optional: Vercel
 
 ## Features and Functionality
 
