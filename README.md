@@ -13,6 +13,7 @@ This project is designed for ease of use, clean UI aesthetics, and extensibility
 
 ## Live Demo
 
+
 Check out the deployed app here: [Weather Dashboard Live](https://weather-dashboard-kappa-five.vercel.app/)
 
 ## Screenshot
